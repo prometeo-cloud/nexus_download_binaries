@@ -1,0 +1,12 @@
+---
+nexus_user:    deployment
+nexus_user_pw: deployment123
+
+nexus_url: "http://nexus.repo:8081/content/repositories/prometeo/1.0.0"
+
+cache_folder:  "/var/cache/prometeo/"
+
+cache_files:
+  - "nexus-2.14.3-02-bundle.zip"
+  - "jdk-8u121-linux-x64.rpm"
+...
